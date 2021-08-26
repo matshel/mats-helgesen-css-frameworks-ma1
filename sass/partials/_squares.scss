@@ -1,0 +1,34 @@
+.squares {
+	min-width: 350px;
+	max-width: 350px;
+	min-height: 350px;
+	max-height: 350px;
+	border-radius: 15px;
+
+	&.gray {
+		background-color: $primary;
+		border: none;
+	}
+
+	&.pink {
+		background-color: $secondary;
+		border: 3px solid $white;
+	}
+
+	&.white {
+		background-color: $white;
+		border: 3px solid $secondary;
+	}
+}
+
+.row {
+	gap: 10px;
+	margin: 0 auto;
+}
+
+.container__row {
+	justify-content: center;
+	gap: 10px;
+	max-width: 1430px;
+	margin: 0 auto;
+}

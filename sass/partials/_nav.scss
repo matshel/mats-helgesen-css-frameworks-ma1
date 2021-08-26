@@ -1,0 +1,20 @@
+.navbar-brand {
+	color: $logo !important;
+	text-transform: uppercase;
+}
+
+.navbar-nav {
+	font-family: $font-secondary;
+	text-transform: uppercase;
+}
+
+.navbar-toggler-icon {
+	color: $navbar-toggler-icon;
+}
+
+.container-fluid {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1430px;
+}
